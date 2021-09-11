@@ -88,15 +88,16 @@
 
 /* Основное содержимое страницы, блок content */
 .content {
-  border: 1px solid #000;
+  background-color: #f2f2f2;
 }
 
 /* Секция, блок description */
 .description {
+  padding-top: 100px;
 }
 
 .two-columns {
-  margin: 100px auto 0;
+  margin: auto;
   width: 80%;
   min-height: 150px;
   display: flex;
@@ -140,20 +141,23 @@
 
 /* Секция, блок digits */
 .digits {
-  border: 1px solid #4af;
+  border: 1px solid #0f0;
+  padding: 100px 0;
 }
 
 .section-title {
+  border: 1px solid #0f0;
   display: flex;
+  justify-content: center;
   width: 60%;
-  margin: 100px auto 20px;
+  margin: 0 auto 20px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  justify-content: center;
 }
 
 .section-subtitle {
+  border: 1px solid #0f0;
   display: flex;
   justify-content: center;
   width: 60%;
@@ -164,11 +168,12 @@
 }
 
 .table {
+  border: 1px solid #0f0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
 }
 
 .table__cell {
@@ -242,24 +247,28 @@
 
 /* Секция, блок kaufman */
 .kaufman {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #000;
   position: relative;
   overflow: hidden;
 }
 
 .section-title_theme_dark {
-  margin-top: 90px;
+  border: 1px solid #0f0;
   color: white;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
+  border: 1px solid #0f0;
   color: white;
   z-index: 1;
 }
 
 .table_theme_dark {
   z-index: 1;
+  border: 1px solid #0f0;
 }
 
 .table__cell_theme_dark {
@@ -343,8 +352,10 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  padding-left: 0;
   margin-bottom: 16px;
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 .footer__column_content-social {
