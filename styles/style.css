@@ -213,7 +213,6 @@ text-decoration: underline;
 }
 
 .feynman__title {
-  width: 0;
   display: flex;
   max-width: 648px;
   margin: auto;
@@ -321,7 +320,7 @@ text-decoration: underline;
   width: 90%;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
