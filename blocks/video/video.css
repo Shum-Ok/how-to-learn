@@ -1,5 +1,6 @@
 /* Секция, блок video */
 .video {
   padding-top: 100px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
