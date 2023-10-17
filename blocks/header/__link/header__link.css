@@ -1,11 +1,11 @@
 .header__link {
-  color:  #2f80ed;
+  color: #2f80ed;
   text-decoration: none;
   opacity: 1;
-  transition: opacity 2s;
+  transition: opacity 0.15s;
 }
 
 .header__link:hover {
-  opacity: 0.3;
-  transition: opacity 250ms ease-out;
+  opacity: 0.4;
+  transition: opacity 0.15s ease-in-out;
 }
